@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://sophiechenyx.github.io/blog/"/>
-  <updated>2018-03-23T06:44:40.238Z</updated>
+  <updated>2018-03-23T07:08:33.259Z</updated>
   <id>https://sophiechenyx.github.io/blog/</id>
   
   <author>
@@ -17,16 +17,55 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>HTTP状态码的解读</title>
-    <link href="https://sophiechenyx.github.io/blog/2018/03/23/HTTP%E7%8A%B6%E6%80%81%E7%A0%81%E7%9A%84%E8%A7%A3%E8%AF%BB/"/>
-    <id>https://sophiechenyx.github.io/blog/2018/03/23/HTTP状态码的解读/</id>
-    <published>2018-03-23T06:44:11.000Z</published>
-    <updated>2018-03-23T06:44:40.238Z</updated>
+    <title>tag测试页面</title>
+    <link href="https://sophiechenyx.github.io/blog/2018/03/23/tag%E6%B5%8B%E8%AF%95%E9%A1%B5%E9%9D%A2/"/>
+    <id>https://sophiechenyx.github.io/blog/2018/03/23/tag测试页面/</id>
+    <published>2018-03-23T07:08:33.000Z</published>
+    <updated>2018-03-23T07:08:33.259Z</updated>
     
     <summary type="html">
     
     </summary>
     
+    
+  </entry>
+  
+  <entry>
+    <title>快速抠图</title>
+    <link href="https://sophiechenyx.github.io/blog/2018/03/23/%E5%BF%AB%E9%80%9F%E6%8A%A0%E5%9B%BE/"/>
+    <id>https://sophiechenyx.github.io/blog/2018/03/23/快速抠图/</id>
+    <published>2018-03-23T06:49:36.000Z</published>
+    <updated>2018-03-23T06:49:36.376Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HTTP状态码的解读</title>
+    <link href="https://sophiechenyx.github.io/blog/2018/03/23/HTTP%E7%8A%B6%E6%80%81%E7%A0%81%E7%9A%84%E8%A7%A3%E8%AF%BB/"/>
+    <id>https://sophiechenyx.github.io/blog/2018/03/23/HTTP状态码的解读/</id>
+    <published>2018-03-23T06:44:11.000Z</published>
+    <updated>2018-03-23T07:07:05.020Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="HTTP状态码是用以表示服务器HTTP响应状态的3位数字代码"><a href="#HTTP状态码是用以表示服务器HTTP响应状态的3位数字代码" class="headerlink" title="HTTP状态码是用以表示服务器HTTP响应状态的3位数字代码"></a>HTTP状态码是用以表示服务器HTTP响应状态的3位数字代码</h3><h2 id="常见的HTTP状态码报错问题"><a href="#常见的HTTP状态码报错问题" class="headerlink" title="常见的HTTP状态码报错问题"></a>常见的HTTP状态码报错问题</h2><ul><li>2开头 （请求成功）表示成功处理了请求的状态代码。<ul><li>200   （成功）  服务器已成功处理了请求。 通常，这表示###服务器提供了请求的网页。 </li><li>201   （已创建）  请求成功并且服务器创建了新的资源。 </li><li>202   （已接受）  服务器已接受请求，但尚未处理。 </li><li>203   （非授权信息）  服务器已成功处理了请求，但返回的信息可能来自另一来源。 </li><li>204   （无内容）  服务器成功处理了请求，但没有返回任何内容。 </li><li>205   （重置内容） 服务器成功处理了请求，但没有返回任何内容。</li><li>206   （部分内容）  服务器成功处理了部分 GET 请求。</li></ul></li><li>3开头 （请求被重定向）表示要完成请求，需要进一步操作。 通常，这些状态代码用来重定向。<ul><li>300   （多种选择）  针对请求，服务器可执行多种操作。 服务器可根据请求者 (user agent) 选择一项操作，或提供操作列表供请求者选择。 </li><li>301   （永久移动）  请求的网页已永久移动到新位置。 服务器返回此响应（对 GET 或 HEAD 请求的响应）时，会自动将请求者转到新位置。    </li><li>302   （临时移动）  服务器目前从不同位置的网页响应请求，但请求者应继续使用原有位置来进行以后的请求。303   （查看其他位置） 请求者应当对不同的位置使用单独的 GET 请求来检索响应时，服务器返回此代码。</li><li>304   （未修改） 自从上次请求后，请求的网页未修改过。 服务器返回此响应时，不会返回网页内容。 </li><li>305   （使用代理） 请求者只能使用代理访问请求的网页。 如果服务器返回此响应，还表示请求者应使用代理。 </li><li>307   （临时重定向）  服务器目前从不同位置的网页响应请求，但请求者应继续使用原有位置来进行以后的请求。</li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;HTTP状态码是用以表示服务器HTTP响应状态的3位数字代码&quot;&gt;&lt;a href=&quot;#HTTP状态码是用以表示服务器HTTP响应状态的3位数字代码&quot; class=&quot;headerlink&quot; title=&quot;HTTP状态码是用以表示服务器HTTP响应状态的3位数字代码&quot;&gt;
+      
+    
+    </summary>
+    
+      <category term="前端杂货铺" scheme="https://sophiechenyx.github.io/blog/categories/grocery/"/>
+    
+    
+      <category term="HTTP状态码" scheme="https://sophiechenyx.github.io/blog/tags/HTTP%E7%8A%B6%E6%80%81%E7%A0%81/"/>
     
   </entry>
   
@@ -59,36 +98,11 @@
   </entry>
   
   <entry>
-    <title>前端性能优化</title>
-    <link href="https://sophiechenyx.github.io/blog/2018/03/19/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/"/>
-    <id>https://sophiechenyx.github.io/blog/2018/03/19/前端性能优化/</id>
-    <published>2018-03-19T13:28:37.000Z</published>
-    <updated>2018-03-23T06:38:53.148Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="1-base64-显示图片"><a href="#1-base64-显示图片" class="headerlink" title="1.base64 显示图片"></a>1.base64 显示图片</h3><p>background:url  使用base64 就不用写图的地址，相当于提前将数据解析了，data:image/base64 ，base64的图片是未经压缩的；<br>利于页面直接加载，减少请求；维护不是特别方便；</p><h3 id="2-css3"><a href="#2-css3" class="headerlink" title="2.css3"></a>2.css3</h3><p>webAPP 上基本是0兼容性的；</p><h3 id="3-html5的API完成性能上的提升"><a href="#3-html5的API完成性能上的提升" class="headerlink" title="3.html5的API完成性能上的提升"></a>3.html5的API完成性能上的提升</h3><blockquote><p>QuerySelector  性能更好速度更快；<br>performance.timing :监控页面加载速度；<br>window.localStorage.setItem(‘a’,’1’),window.localStorage.getItem(‘a’,’1’); 类似于mangdb,可以用来做数据的存储；</p></blockquote><h3 id="4-减少页面的重绘和回流"><a href="#4-减少页面的重绘和回流" class="headerlink" title="4.减少页面的重绘和回流"></a>4.减少页面的重绘和回流</h3><p>repaint  reflow (位置的变化)<br>关于dom元素的属性的操作，浏览器的性能没有pc那么强大；移动端减少对dom元素的操作；<br>css3 transform 代替一些dom操作</p><h3 id="5-尽量缓存所有可以缓存的数据；"><a href="#5-尽量缓存所有可以缓存的数据；" class="headerlink" title="5.尽量缓存所有可以缓存的数据；"></a>5.尽量缓存所有可以缓存的数据；</h3><p>pc上面大部分使用的就是http缓存，是利用http协议的 ‘’ reaponse Header’’ 来做一些信息的保存;<br>现在的html5可以使用localStorage来做一些本地的缓存；<br>但是只能存字符串，无法存储对象。可以使用Json.stringify({})，将对象转化为string,再利用JSON.parse()解析；</p><blockquote><p>session 结束会话就没有了；<br>indexedDB 可以存储多一些的数据；</p></blockquote><h2 id="一些非主流的性能优化的方式："><a href="#一些非主流的性能优化的方式：" class="headerlink" title="一些非主流的性能优化的方式："></a>一些非主流的性能优化的方式：</h2><h3 id="6-不给非static-添加动画，会成倍数得消耗性能；"><a href="#6-不给非static-添加动画，会成倍数得消耗性能；" class="headerlink" title="6.不给非static 添加动画，会成倍数得消耗性能；"></a>6.不给非static 添加动画，会成倍数得消耗性能；</h3><h3 id="7-适当的使用硬件加速-GPU图形处理器-canvas画图就是使用了GPU；"><a href="#7-适当的使用硬件加速-GPU图形处理器-canvas画图就是使用了GPU；" class="headerlink" title="7.适当的使用硬件加速(GPU图形处理器),canvas画图就是使用了GPU；"></a>7.适当的使用硬件加速(GPU图形处理器),canvas画图就是使用了GPU；</h3><h3 id="8-给图层一个-transform-translate3d-0-0-0-开启了硬件加速。"><a href="#8-给图层一个-transform-translate3d-0-0-0-开启了硬件加速。" class="headerlink" title="8.给图层一个 transform:translate3d(0,0,0) 开启了硬件加速。"></a>8.给图层一个 transform:translate3d(0,0,0) 开启了硬件加速。</h3>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;1-base64-显示图片&quot;&gt;&lt;a href=&quot;#1-base64-显示图片&quot; class=&quot;headerlink&quot; title=&quot;1.base64 显示图片&quot;&gt;&lt;/a&gt;1.base64 显示图片&lt;/h3&gt;&lt;p&gt;background:url  使用base64 就
-      
-    
-    </summary>
-    
-      <category term="grocery" scheme="https://sophiechenyx.github.io/blog/categories/grocery/"/>
-    
-    
-      <category term="前端性能优化" scheme="https://sophiechenyx.github.io/blog/tags/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/"/>
-    
-  </entry>
-  
-  <entry>
     <title>ps的相关技术</title>
     <link href="https://sophiechenyx.github.io/blog/2018/03/19/ps%E7%9B%B8%E5%85%B3%E6%8A%80%E6%9C%AF/"/>
     <id>https://sophiechenyx.github.io/blog/2018/03/19/ps相关技术/</id>
     <published>2018-03-19T13:28:37.000Z</published>
-    <updated>2018-03-23T06:43:16.848Z</updated>
+    <updated>2018-03-23T07:06:40.237Z</updated>
     
     <content type="html"><![CDATA[<h2 id="ps相关的技术实现和展现"><a href="#ps相关的技术实现和展现" class="headerlink" title="ps相关的技术实现和展现"></a>ps相关的技术实现和展现</h2>]]></content>
     
@@ -105,6 +119,31 @@
     
     
       <category term="ps" scheme="https://sophiechenyx.github.io/blog/tags/ps/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>前端性能优化</title>
+    <link href="https://sophiechenyx.github.io/blog/2018/03/19/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/"/>
+    <id>https://sophiechenyx.github.io/blog/2018/03/19/前端性能优化/</id>
+    <published>2018-03-19T13:28:37.000Z</published>
+    <updated>2018-03-23T07:04:53.152Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-base64-显示图片"><a href="#1-base64-显示图片" class="headerlink" title="1.base64 显示图片"></a>1.base64 显示图片</h3><p>background:url  使用base64 就不用写图的地址，相当于提前将数据解析了，data:image/base64 ，base64的图片是未经压缩的；<br>利于页面直接加载，减少请求；维护不是特别方便；</p><h3 id="2-css3"><a href="#2-css3" class="headerlink" title="2.css3"></a>2.css3</h3><p>webAPP 上基本是0兼容性的；</p><h3 id="3-html5的API完成性能上的提升"><a href="#3-html5的API完成性能上的提升" class="headerlink" title="3.html5的API完成性能上的提升"></a>3.html5的API完成性能上的提升</h3><blockquote><p>QuerySelector  性能更好速度更快；<br>performance.timing :监控页面加载速度；<br>window.localStorage.setItem(‘a’,’1’),window.localStorage.getItem(‘a’,’1’); 类似于mangdb,可以用来做数据的存储；</p></blockquote><h3 id="4-减少页面的重绘和回流"><a href="#4-减少页面的重绘和回流" class="headerlink" title="4.减少页面的重绘和回流"></a>4.减少页面的重绘和回流</h3><p>repaint  reflow (位置的变化)<br>关于dom元素的属性的操作，浏览器的性能没有pc那么强大；移动端减少对dom元素的操作；<br>css3 transform 代替一些dom操作</p><h3 id="5-尽量缓存所有可以缓存的数据；"><a href="#5-尽量缓存所有可以缓存的数据；" class="headerlink" title="5.尽量缓存所有可以缓存的数据；"></a>5.尽量缓存所有可以缓存的数据；</h3><p>pc上面大部分使用的就是http缓存，是利用http协议的 ‘’ reaponse Header’’ 来做一些信息的保存;<br>现在的html5可以使用localStorage来做一些本地的缓存；<br>但是只能存字符串，无法存储对象。可以使用Json.stringify({})，将对象转化为string,再利用JSON.parse()解析；</p><blockquote><p>session 结束会话就没有了；<br>indexedDB 可以存储多一些的数据；</p></blockquote><h2 id="一些非主流的性能优化的方式："><a href="#一些非主流的性能优化的方式：" class="headerlink" title="一些非主流的性能优化的方式："></a>一些非主流的性能优化的方式：</h2><h3 id="6-不给非static-添加动画，会成倍数得消耗性能；"><a href="#6-不给非static-添加动画，会成倍数得消耗性能；" class="headerlink" title="6.不给非static 添加动画，会成倍数得消耗性能；"></a>6.不给非static 添加动画，会成倍数得消耗性能；</h3><h3 id="7-适当的使用硬件加速-GPU图形处理器-canvas画图就是使用了GPU；"><a href="#7-适当的使用硬件加速-GPU图形处理器-canvas画图就是使用了GPU；" class="headerlink" title="7.适当的使用硬件加速(GPU图形处理器),canvas画图就是使用了GPU；"></a>7.适当的使用硬件加速(GPU图形处理器),canvas画图就是使用了GPU；</h3><h3 id="8-给图层一个-transform-translate3d-0-0-0-开启了硬件加速。"><a href="#8-给图层一个-transform-translate3d-0-0-0-开启了硬件加速。" class="headerlink" title="8.给图层一个 transform:translate3d(0,0,0) 开启了硬件加速。"></a>8.给图层一个 transform:translate3d(0,0,0) 开启了硬件加速。</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;1-base64-显示图片&quot;&gt;&lt;a href=&quot;#1-base64-显示图片&quot; class=&quot;headerlink&quot; title=&quot;1.base64 显示图片&quot;&gt;&lt;/a&gt;1.base64 显示图片&lt;/h3&gt;&lt;p&gt;background:url  使用base64 就
+      
+    
+    </summary>
+    
+      <category term="前端杂货铺" scheme="https://sophiechenyx.github.io/blog/categories/grocery/"/>
+    
+    
+      <category term="前端性能优化" scheme="https://sophiechenyx.github.io/blog/tags/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/"/>
     
   </entry>
   
