@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://sophiechenyx.github.io/blog">
-  <title>ps | Chenyx的博客</title>
+  <title>Node 的学习文章 | Chenyx的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="所以说原来分类页面需要靠type 才能完成分页栏目嘛？hexo用起来也太复杂了把">
+  <meta name="description" content="所以说原来分类页面需要靠type 才能完成分页栏目嘛？hexo用起来也太复杂了把node.js开发环境的搭建，在虚拟机上linux 密码cyx000  nvm  node npmnvm :nodeJs 版本管理工具，管理node js 版本和npm 版本nodeJs :reactNative 开发过程中所需要的代码库；npm : 是跟随nodeJs一起安装的包管理工具，npm 管理对应的nodeJ">
 <meta property="og:type" content="website">
-<meta property="og:title" content="ps">
+<meta property="og:title" content="Node 的学习文章">
 <meta property="og:url" content="https://sophiechenyx.github.io/blog/ps/index.html">
 <meta property="og:site_name" content="Chenyx的博客">
-<meta property="og:description" content="所以说原来分类页面需要靠type 才能完成分页栏目嘛？hexo用起来也太复杂了把">
+<meta property="og:description" content="所以说原来分类页面需要靠type 才能完成分页栏目嘛？hexo用起来也太复杂了把node.js开发环境的搭建，在虚拟机上linux 密码cyx000  nvm  node npmnvm :nodeJs 版本管理工具，管理node js 版本和npm 版本nodeJs :reactNative 开发过程中所需要的代码库；npm : 是跟随nodeJs一起安装的包管理工具，npm 管理对应的nodeJ">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-03-23T07:45:23.123Z">
+<meta property="og:updated_time" content="2018-04-16T02:18:04.453Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ps">
-<meta name="twitter:description" content="所以说原来分类页面需要靠type 才能完成分页栏目嘛？hexo用起来也太复杂了把">
+<meta name="twitter:title" content="Node 的学习文章">
+<meta name="twitter:description" content="所以说原来分类页面需要靠type 才能完成分页栏目嘛？hexo用起来也太复杂了把node.js开发环境的搭建，在虚拟机上linux 密码cyx000  nvm  node npmnvm :nodeJs 版本管理工具，管理node js 版本和npm 版本nodeJs :reactNative 开发过程中所需要的代码库；npm : 是跟随nodeJs一起安装的包管理工具，npm 管理对应的nodeJ">
   
     <link rel="alternative" href="/atom.xml" title="Chenyx的博客" type="application/atom+xml">
   
@@ -173,7 +173,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      ps
+      Node 的学习文章
     </h1>
   
 
@@ -186,7 +186,96 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="所以说原来分类页面需要靠type-才能完成分页栏目嘛？hexo用起来也太复杂了把"><a href="#所以说原来分类页面需要靠type-才能完成分页栏目嘛？hexo用起来也太复杂了把" class="headerlink" title="所以说原来分类页面需要靠type 才能完成分页栏目嘛？hexo用起来也太复杂了把"></a>所以说原来分类页面需要靠type 才能完成分页栏目嘛？hexo用起来也太复杂了把</h2>
+        <h2 id="所以说原来分类页面需要靠type-才能完成分页栏目嘛？hexo用起来也太复杂了把"><a href="#所以说原来分类页面需要靠type-才能完成分页栏目嘛？hexo用起来也太复杂了把" class="headerlink" title="所以说原来分类页面需要靠type 才能完成分页栏目嘛？hexo用起来也太复杂了把"></a>所以说原来分类页面需要靠type 才能完成分页栏目嘛？hexo用起来也太复杂了把</h2><h1 id="node-js开发环境的搭建，在虚拟机上"><a href="#node-js开发环境的搭建，在虚拟机上" class="headerlink" title="node.js开发环境的搭建，在虚拟机上"></a>node.js开发环境的搭建，在虚拟机上</h1><p>linux 密码cyx000</p>
+<blockquote>
+<p>nvm  node npm<br>nvm :nodeJs 版本管理工具，管理node js 版本和npm 版本<br>nodeJs :reactNative 开发过程中所需要的代码库；<br>npm : 是跟随nodeJs一起安装的包管理工具，npm 管理对应的nodeJs的第三方插件  </p>
+</blockquote>
+<h2 id="安装一个nvm"><a href="#安装一个nvm" class="headerlink" title="安装一个nvm"></a>安装一个nvm</h2><p>nvm 控制node npm 之间的使用；</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">nvm install stabel  </span><br><span class="line">nvm use vx.x.x  </span><br><span class="line">nvm alias default 0.12.7 #设置默认 node 版本为 0.12.7  //配置全局默认的npm + node 的版本</span><br></pre></td></tr></table></figure>
+<h2 id="lesson1"><a href="#lesson1" class="headerlink" title="lesson1"></a>lesson1</h2><blockquote>
+<p>框架Express<br>express 是Node.js 应用最广泛的web框架，node.js的依赖是以项目为单位管理的，直接就安装在项目的<code>node_modules</code>目录下，而且每个依赖都可以有指定版本的其他依赖，这些依赖像一棵树一样。</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>);  </span><br><span class="line"><span class="keyword">var</span> app = express();  </span><br><span class="line"></span><br><span class="line">app.get(<span class="string">'/'</span>,<span class="function"><span class="keyword">function</span>(<span class="params">req,res</span>)</span>&#123;</span><br><span class="line">    res.send(<span class="string">'hello  world'</span>)</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">app.listen(<span class="number">3000</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log( <span class="string">'app is listening at port 3000'</span> )</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>端口</p>
+</blockquote>
+<p>端口的作用：通过端口来区分出同一电脑内不同应用或者进程，从而实现一条物理网线(通过分组交换技术-比如internet)同时链接多个程序Port_(computer_networking)  </p>
+<p>端口号是一个 16位的 uint, 所以其范围为 1 to 65535 (对TCP来说, port 0 被保留，不能被使用. 对于UDP来说, source端的端口号是可选的， 为0时表示无端口).</p>
+<p>app.listen(3000)，进程就被打标，电脑接收到的3000端口的网络消息就会被发送给我们启动的这个进程</p>
+<p>来源： <a href="https://github.com/alsotang/node-lessons/tree/master/lesson1" target="_blank" rel="noopener">https://github.com/alsotang/node-lessons/tree/master/lesson1</a></p>
+<h2 id="lesson2"><a href="#lesson2" class="headerlink" title="lesson2"></a>lesson2</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//引入依赖；  </span></span><br><span class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>);  </span><br><span class="line"><span class="keyword">var</span> utility = <span class="built_in">require</span>(<span class="string">'utility'</span>);</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p> http相关知识小结;  </p>
+<ul>
+<li>当我们打开浏览器在地址栏中输入url,我们就看到了网页。<br>   浏览器 ———（request）——&gt; web Server<br>   浏览器 &lt;——— （Response）—— web Server<br>   中间可能会有（Proxy）中间的服务器代理  </li>
+<li>代理服务器有什么功能呢<br>  1.提高访问速度，大多数的代理服务器都有缓存功能；<br>  2.突破限制，也就是翻墙了<br>  3.隐藏身份；</li>
+<li>URL<br>  一个基本的url 包括如下的格式<br>schema://host[:port#]/path/…/[;url-params][?query-string][#anchor]<br>　　scheme               指定低层使用的协议(例如：http, https, ftp)<br>　　host                   HTTP服务器的IP地址或者域名<br>　　port#                 HTTP服务器的默认端口是80，这种情况下端口号可以省略。如果使用了别的端口，必须指明，例如 <a href="http://www.cnblogs.com:8080/" target="_blank" rel="noopener">http://www.cnblogs.com:8080/</a><br>　　path                   访问资源的路径<br>　　url-params<br>　　query-string       发送给http服务器的数据<br>　　anchor-             锚<br>来源： <a href="https://kb.cnblogs.com/page/130970/" target="_blank" rel="noopener">https://kb.cnblogs.com/page/130970/</a></li>
+<li>Request 消息<br>  http消息的结构分为3部分，第一部分叫请求行，第二部分叫http header ,第三部分时body,header 和body 之间有个空行。结构如下图；</li>
+</ul>
+</blockquote>
+<pre><code>第一行中的Method表示请求方法，比如&quot;POST&quot;，&quot;GET&quot;，  Path-to-resoure表示请求的资源， Http/version-number 表示HTTP协议的版本号；  
+</code></pre><p>http协议定义了很多与服务器交互的方法，最基本的有四种，分别是GET,POST,PUT,DELETE ，一个URL地址用于描述一个网络上的资源，而http中的GET,POST,PUT,DELETE就对应着这个资源的查，改，增，删四个操作。get 用于获取/查询资源，而post用于更新资源；</p>
+<blockquote>
+<p>post 和 get的区别<br>1.get 提交的数据会放在url之后，以？分割url和传输数据，参数之间以&amp;相连，post方法是把提交的数据放在http包的body中<br>2.get 提交的数据大小有限，post 提交的数据是没有限制的；<br>3.get 方式需要使用request.QueryString来取得变量的值，而post 方式通过request.From 来获取变量的值。<br>4.get方式提交数据，会带来安全问题，造成相关的数据暴露；<br><a href="https://kb.cnblogs.com/page/130970/" target="_blank" rel="noopener">https://kb.cnblogs.com/page/130970/</a></p>
+</blockquote>
+<h2 id="lesson-3"><a href="#lesson-3" class="headerlink" title="lesson 3"></a>lesson 3</h2><ul>
+<li>1.学会使用auperagent抓取网页  </li>
+<li>2.学习使用cheerio分析网页</li>
+</ul>
+<p>express ,superagent cheerio 相关的三个依赖</p>
+<blockquote>
+<h4 id="superagent-是个http方面的库，可以发起get或post请求"><a href="#superagent-是个http方面的库，可以发起get或post请求" class="headerlink" title="superagent 是个http方面的库，可以发起get或post请求"></a>superagent 是个http方面的库，可以发起get或post请求</h4><h4 id="cheerio-一个node-js的jquery-用来请求网页以css-selector取数据，使用和jquery-一样的。"><a href="#cheerio-一个node-js的jquery-用来请求网页以css-selector取数据，使用和jquery-一样的。" class="headerlink" title="cheerio 一个node.js的jquery ,用来请求网页以css selector取数据，使用和jquery 一样的。"></a>cheerio 一个node.js的jquery ,用来请求网页以css selector取数据，使用和jquery 一样的。</h4></blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">在这里需要讲解一下基本的express 框架，来解决一些学习到目前为止的一些不解的名词和相关的内容，来做好这一章节的相关学习；</span><br><span class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>);</span><br><span class="line"><span class="keyword">var</span> app = express()</span><br><span class="line"></span><br><span class="line">app.get(<span class="string">'/'</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;       <span class="comment">//statement     &#125;);  </span></span><br><span class="line"><span class="string">'/'</span> =&gt; 路由，路由是指如何定义应用的端点（URIs）以及如何响应客户端的请求。  </span><br><span class="line">路由是由一个URL .http请求（GET,POST等）和若干个句柄组成，他的结构如下  </span><br><span class="line">app.METHOD(path,[callback...],callback),appexpress对象的一个实例，METHOD是一个HTTP请求方法，path是服务器上的路径，callback是当路由匹配时要执行的函数；</span><br><span class="line"></span><br><span class="line">* <span class="number">1.</span>使用字符串的路由路径</span><br><span class="line">* <span class="number">2.</span>使用字符串模式的路由路径 ： app.get( <span class="string">'/ab?cd '</span>,fn()&#123;&#125; ) =&gt; 匹配acd 和abcd</span><br><span class="line">使用一个回调函数处理路由：</span><br><span class="line">app.get(<span class="string">'/example/a'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">req, res</span>) </span>&#123;</span><br><span class="line">  res.send(<span class="string">'Hello from A!'</span>);</span><br><span class="line">&#125;);</span><br><span class="line">使用多个回调函数处理路由（记得指定 next 对象）：</span><br><span class="line">app.get(<span class="string">'/example/b'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">req, res, next</span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">'response will be sent by the next function ...'</span>);</span><br><span class="line">  next();</span><br><span class="line">&#125;, <span class="function"><span class="keyword">function</span> (<span class="params">req, res</span>) </span>&#123;</span><br><span class="line">  res.send(<span class="string">'Hello from B!'</span>);</span><br><span class="line">&#125;);</span><br><span class="line">使用回调函数数组处理路由：</span><br><span class="line"><span class="keyword">var</span> cb0 = <span class="function"><span class="keyword">function</span> (<span class="params">req, res, next</span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">'CB0'</span>);</span><br><span class="line">  next();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> cb1 = <span class="function"><span class="keyword">function</span> (<span class="params">req, res, next</span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">'CB1'</span>);</span><br><span class="line">  next();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> cb2 = <span class="function"><span class="keyword">function</span> (<span class="params">req, res</span>) </span>&#123;</span><br><span class="line">  res.send(<span class="string">'Hello from C!'</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">app.get(<span class="string">'/example/c'</span>, [cb0, cb1, cb2]);</span><br></pre></td></tr></table></figure>
+<p>继续关于expresss的部分（函数句柄，next() 相关的概念）：<br>Express 是一个自身功能极简，完全是由路由和中间价构成一个的web开发框架，从本质上来说，一个express应用就是在调用各种中间件。<br>中间件是一个函数，它可以访问请求对象（request object(req))，响应对象（response object(res)）,和web应用中处于请求-响应循环流程的中间件，也就是被命名为next 的变量；</p>
+<p>中间件的功能包括：</p>
+<ul>
+<li>执行任何代码（函数中可以写statements）</li>
+<li>修改请求和响应对象。（for req,res）</li>
+<li>终结请求-相应循环。</li>
+<li>调用堆栈中的下一个中间件。</li>
+</ul>
+<p>如果当前中间件没有终结请求-响应循环，则必须调用next()方法将控制权交给下一个中间件，否则请求就会被挂起</p>
+<p><em>———————————————–注释（什么是  终结请求-响应循环）————————————</em><br>Express 响应（res）方法<br>下表中响应对象（res）的方法想客户端返回响应，终结请求响应的循环，如果在路由句柄中一个方法也不调用，来自客户端的请求会一直挂起；  </p>
+<p>方法    描述<br>res.download()    提示下载文件<br>res.end()    终结下载文件<br>res.json()    发送一个JSON格式的响应<br>res.jsonp()    发送一个支持jsonp的json格式<br>res.redirect()    重定向请求<br>res.render()    渲染视图模板<br>res.send()    发送各种类型的响应<br>res.sendFile    以8位字节流的形式发送文件<br>res.sendStatus()    设置响应状态码代码，并将其以字都穿形式作为响应体的一部发送</p>
+<p>有了以上的相关解释，再看next 就容易很多了。<br>转自：<a href="http://baijiahao.baidu.com/s?id=1571475328064520&amp;wfr=spider&amp;for=pc" target="_blank" rel="noopener">http://baijiahao.baidu.com/s?id=1571475328064520&amp;wfr=spider&amp;for=pc</a> </p>
+<blockquote>
+<p>一句话解释博客的内容就是<br>当中间件中是next()的时候从下一个函数开始往下执行，当next(‘router’)时，直接执行下一个相同路由；</p>
+</blockquote>
+<blockquote>
+<p>路由：就是如何处理HTTP请求中的路径部分<br>句柄：每个路径都会由对应的函数来处理（这个函数就是句柄）<br><em>————————————————注释部分结束——————————————-</em></p>
+</blockquote>
+<p>Express 应用可使用如下几种中间件：  </p>
+<blockquote>
+<p>应用级中间件<br>路由级中间件<br>错误处理中间件<br>内置中间件<br>第三方中间件</p>
+</blockquote>
+<p>接下来我们需要跟着作者继续学习就不深究其他的内容了^-^<br>关于cheerio的了解，在看到第三节，使用superagent.get()抓取 网站中的内容的时候，将但会的sres中的text 内容传递到了cheerio.load()中，并且称之为可以得到一个实现jquery接口的变量，返回值命名 为$;</p>
+<p><em>关于cheerio</em>  </p>
+<blockquote>
+<p>cheerio是一个node 的库，可以理解为是node.js版本的jquery ，用来从网页中以css selector取数据，使用方式和jquery基本相同；</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"> <span class="keyword">var</span> cheerio = <span class="built_in">require</span>(<span class="string">'cheerio'</span>);</span><br><span class="line"> <span class="keyword">var</span> $ = cheerio.load(<span class="string">'&lt;h2&gt; hello world&lt;/h2&gt;'</span>)   <span class="comment">//像cheerio中传入html结构</span></span><br><span class="line"></span><br><span class="line">  $(<span class="string">'h2'</span>).text()   =&gt;    hello world  </span><br><span class="line"><span class="comment">//使用方法和jquery相似，但是事实上，cheerio 从jQuery库中去除了所有DOM不一致性和浏览器尴尬的部分，cheerio.load  主要是装载dom ,和jquery 的转载dom一样的都是必须的内容；</span></span><br><span class="line"> <span class="comment">//使用方式和jquery类似，如果你对jquery 比较熟悉的话可以直接上手，如果你还不是特别熟悉，可以查看有关cheerio的文档或者相关博客：https://www.jianshu.com/p/6c6aba741c59 ，也可以直接选择取熟悉jQuery的源代码或者使用方式；</span></span><br></pre></td></tr></table></figure>
+<h3 id="有可能出现的报错，"><a href="#有可能出现的报错，" class="headerlink" title="有可能出现的报错，"></a>有可能出现的报错，</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> debug = <span class="built_in">require</span>(<span class="string">'debug'</span>)(<span class="string">'superagent'</span>);</span><br><span class="line">^^^^</span><br><span class="line"><span class="built_in">SyntaxError</span> : use <span class="keyword">of</span> <span class="keyword">const</span> <span class="keyword">in</span> strict mode</span><br></pre></td></tr></table></figure>
+<p>因为在目前的代码中使用的都是浏览器可识别的语法，作者在开发的时候使用的”superagent”版本为^0.20.0  可能当前的插件中没有出现es6的相关语法，但是（2018.0331）现在安装的“superagent”的版本是3.8.2可能出现了es6的相关语法以至于在执行的时候报错；所以需要将当前superagent的版本重置一下。</p>
+<p>在安装superagent 的时候出现报错：(ps 忍不住为superagent 介绍一下，它是一个强大并且可读性很好的轻量级ajaxAPI ，是一个关于http方面的一个库，而且可以将链式写法玩的出神入化）</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"> npm unnistall   superagent    <span class="comment">//卸载当前的版本;  </span></span><br><span class="line">npm install superagent@^<span class="number">0.20</span><span class="number">.0</span></span><br></pre></td></tr></table></figure>
+<p>结果如图</p>
+<h2 id="lesson4"><a href="#lesson4" class="headerlink" title="lesson4"></a>lesson4</h2><ul>
+<li>学习使用 eventproxy控制并发</li>
+</ul>
+<p>node.js的并发模型和多线程不同，并发就是说 服务器有并发连接数的限制，所以请求发送太快的时候会导致返回值为空或者报错。</p>
+<p>文章中有提到脚手架，其实就是一个概念，都是为了减少重复性的工作，而脚手架就可以帮你减少这些为减少重复性工作而做的重复性工作. 脚手架一个命令，目录结构、gulp脚本、babel配置、空的测试文件都帮你搞好了. 直接写核心业务代码，不做重复性工作，这就是脚手架的作用.（再清楚不过了，构建一个项目需要压缩、编译等等工作的时候，一句npm 里面的script 就可以完成一个动作就减少了部分重复的工作）</p>
+<blockquote>
+<p>关于url 模块  （来源<a href="https://www.cnblogs.com/whiteMu/p/5983125.html，讲的很清楚了）" target="_blank" rel="noopener">https://www.cnblogs.com/whiteMu/p/5983125.html，讲的很清楚了）</a><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br></pre></td><td class="code"><pre><span class="line">url.parse(<span class="string">"http://user:pass@host.com:8080/p/a/t/h?query=string#hash"</span>);</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">返回值：</span></span><br><span class="line"><span class="comment">&#123;</span></span><br><span class="line"><span class="comment">  protocol: 'http:',</span></span><br><span class="line"><span class="comment">  slashes: true,</span></span><br><span class="line"><span class="comment">  auth: 'user:pass',</span></span><br><span class="line"><span class="comment">  host: 'host.com:8080',</span></span><br><span class="line"><span class="comment">  port: '8080',</span></span><br><span class="line"><span class="comment">  hostname: 'host.com',</span></span><br><span class="line"><span class="comment">  hash: '#hash',</span></span><br><span class="line"><span class="comment">  search: '?query=string',</span></span><br><span class="line"><span class="comment">  query: 'query=string',</span></span><br><span class="line"><span class="comment">  pathname: '/p/a/t/h',</span></span><br><span class="line"><span class="comment">  path: '/p/a/t/h?query=string',</span></span><br><span class="line"><span class="comment">  href: 'http://user:pass@host.com:8080/p/a/t/h?query=string#hash'</span></span><br><span class="line"><span class="comment">&#125;</span></span><br><span class="line"><span class="comment">没有设置第二个参数为true时，query属性为一个字符串类型</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">url.parse第二个参数为true的情况</span></span><br><span class="line"><span class="comment">url.parse("http://user:pass@host.com:8080/p/a/t/h?query=string#hash",true);</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">返回值：</span></span><br><span class="line"><span class="comment">&#123;</span></span><br><span class="line"><span class="comment">  protocol: 'http:',</span></span><br><span class="line"><span class="comment">  slashes: true,</span></span><br><span class="line"><span class="comment">  auth: 'user:pass',</span></span><br><span class="line"><span class="comment">  host: 'host.com:8080',</span></span><br><span class="line"><span class="comment">  port: '8080',</span></span><br><span class="line"><span class="comment">  hostname: 'host.com',</span></span><br><span class="line"><span class="comment">  hash: '#hash',</span></span><br><span class="line"><span class="comment">  search: '?query=string',</span></span><br><span class="line"><span class="comment">  query: &#123; query: 'string' &#125;,</span></span><br><span class="line"><span class="comment">  pathname: '/p/a/t/h',</span></span><br><span class="line"><span class="comment">  path: '/p/a/t/h?query=string',</span></span><br><span class="line"><span class="comment">  href: 'http://user:pass@host.com:8080/p/a/t/h?query=string#hash'</span></span><br><span class="line"><span class="comment">&#125;</span></span><br><span class="line"><span class="comment">返回的url对象中，query属性为一个对象</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">url.parse(urlString,boolean,boolean) 第二个boolean值可以识别没有协议的urlString的host和hostname</span><br><span class="line">例如：</span><br><span class="line">url.parse(‘<span class="comment">//www.baidu.com’,true,true)</span></span><br><span class="line">可以识别host和hostname</span><br><span class="line"></span><br><span class="line"><span class="comment">//第二种方法： url.format() =&gt;format这个方法是将传入的url对象编程一个url字符串并返回  </span></span><br><span class="line">url.format(&#123;</span><br><span class="line">    protocol:<span class="string">"http:"</span>,</span><br><span class="line">    host:<span class="string">"182.163.0:60"</span>,</span><br><span class="line">    port:<span class="string">"60"</span></span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">返回值：</span></span><br><span class="line"><span class="comment">'http://182.163.0:60'</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//  第三种方法url.resolve（） ;resolve这个方法返回一个格式为"from/to"的字符串，是对传入的两个参数用"/"符号进行拼接，并返回</span></span><br><span class="line"></span><br><span class="line">url.resolve(<span class="string">"http://whitemu.com"</span>,<span class="string">"gulu"</span>);</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">返回值：</span></span><br><span class="line"><span class="comment">'http://whitemu.com/gulu'</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p>…这里看到了作者写的fuck函数，以为是node里面自带的函数-_-||因为函数居然没有声明一下怎么用的。还有计数器，也就是说完成多少次请求 count  以后再出发一个函数,每次请求都是一个count++.</p>
+<p>数据类型（hash）</p>
+<blockquote>
+<p>有关Eventproxy<br>异步协作  </p>
+<ul>
+<li>多类型异步协作  </li>
+</ul>
+</blockquote>
+
       
 
       
@@ -387,15 +476,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">前端性能优化</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">HTTP状态码</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">webpack</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">前端性能优化</a>
               </li>
             
             <div class="clearfix"></div>

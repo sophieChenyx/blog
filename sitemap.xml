@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sophiechenyx.github.io/blog/ps/index.html</loc>
+    
+    <lastmod>2018-04-16T02:18:04.453Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://sophiechenyx.github.io/blog/2018/03/19/webpack%E7%AE%80%E6%98%93%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/</loc>
     
-    <lastmod>2018-03-28T07:28:11.572Z</lastmod>
+    <lastmod>2018-03-28T07:48:19.865Z</lastmod>
     
   </url>
   
@@ -33,13 +40,6 @@
     <loc>https://sophiechenyx.github.io/blog/2018/03/23/tag%E6%B5%8B%E8%AF%95%E9%A1%B5%E9%9D%A2/</loc>
     
     <lastmod>2018-03-23T07:46:49.462Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sophiechenyx.github.io/blog/ps/index.html</loc>
-    
-    <lastmod>2018-03-23T07:45:23.123Z</lastmod>
     
   </url>
   
